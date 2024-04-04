@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Rocket
+    uniqueID: 1370750509
+    locked: 0
+  - name: Asteroid Shadow
+    uniqueID: 1843067873
+    locked: 0
+  - name: Rays
+    uniqueID: 1176018565
+    locked: 0
+  - name: Asteroid
+    uniqueID: 1310703431
+    locked: 0
