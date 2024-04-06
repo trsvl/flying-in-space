@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 1310703431
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9bb6d8941e690dc4da1805495ee249b8, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_Size: {x: 14.56, y: 12.49}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &8148310096677735455
@@ -135,7 +135,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   asteroidContainer: {fileID: 1882532198038716102}
   asteroid: {fileID: 6138733806026814652}
+  asteroidSprite: {fileID: 5008401713732398358}
   asteroidShadow: {fileID: 4327082236464622164}
+  asteroidShadowSprite: {fileID: 9057058538512269490}
   rotationSpeed: 30
 --- !u!114 &3850602041418497345
 MonoBehaviour:
@@ -163,7 +165,7 @@ MonoBehaviour:
   - {x: 0.054959178, y: -0.16894913, z: 0}
   m_ShapePathHash: 2034278817
   m_Mesh: {fileID: 0}
-  m_InstanceId: -100334
+  m_InstanceId: 30762
   m_LocalBounds:
     m_Center: {x: 0.08313495, y: 0.04856658, z: 0}
     m_Extent: {x: 0.3897969, y: 0.44415808, z: 0}
@@ -302,7 +304,7 @@ SpriteRenderer:
   m_SortingLayerID: 1843067873
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9bb6d8941e690dc4da1805495ee249b8, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.5529412}
   m_FlipX: 0
   m_FlipY: 0
@@ -310,6 +312,6 @@ SpriteRenderer:
   m_Size: {x: 0.97066665, y: 0.8326667}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
