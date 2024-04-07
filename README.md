@@ -12,7 +12,7 @@ To get started, first clone the repository on your device using the command belo
 ```
 git clone -b firebase https://github.com/trsvl/flying-in-space.git
 ```
-Next, open the link https://firebase.google.com/docs/unity/setup and download "Firebase Unity SDK", after that in Unity project, navigate to Assets > Import Package > Custom Package, 
+Next, open the link https://firebase.google.com/docs/unity/setup and download "Firebase Unity SDK", after that in Unity project, navigate to Assets > Import Package > Custom Package.
 
 From the unzipped SDK, select the "FirebaseAnalytics.unitypackage" and import all the packages.
 
