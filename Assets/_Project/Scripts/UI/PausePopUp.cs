@@ -15,4 +15,9 @@ public class PausePopUp : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public bool IsPaused()
+    {
+        return popUp.activeSelf;
+    }
 }

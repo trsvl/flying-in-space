@@ -7290,6 +7290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 100
+  pausePopUp: {fileID: 1978016714}
 --- !u!50 &1584191529
 Rigidbody2D:
   serializedVersion: 4

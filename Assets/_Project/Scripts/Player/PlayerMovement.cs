@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private PausePopUp pausePopUp;
     private Animator animator;
     private Rigidbody2D rb;
     private int movingDirection;
@@ -16,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (pausePopUp.IsPaused()) return;
+
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
